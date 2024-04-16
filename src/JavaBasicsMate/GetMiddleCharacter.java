@@ -1,8 +1,14 @@
 package JavaBasicsMate;
 
+/*
+* Згадаємо як знаходити символи в рядку.
+* У цьому завданні реалізуй метод getMiddleString(), що приймає рядок і
+* повертає центральний символ у вигляді рядку.
+* Зверни увагу: якщо довжина рядка парна, поверни два центральних символи.
+* */
 public class GetMiddleCharacter {
     public static String getMiddleString(String originalString) {
-        int averageValue = 0;
+        int averageValue;
 
         if (originalString == null || originalString.length() == 0)
             return "";
